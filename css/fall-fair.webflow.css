@@ -217,7 +217,8 @@ li {
 }
 
 .section.hero {
-  min-height: 100vh;
+  /* once subheading is reinstated change back to 100vh */
+  min-height: 90vh;
   grid-auto-columns: 1fr;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -348,7 +349,7 @@ li {
 
 .paragraph {
   color: #fff;
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 25px;
   font-weight: 500;
 }
@@ -363,12 +364,13 @@ li {
 }
 
 .button {
+  font-size: 1.1em;
   position: relative;
   z-index: 1;
   display: inline-block;
   overflow: hidden;
-  width: 175px;
-  height: 50px;
+  width: 200px;
+  height: 60px;
   margin-top: 10px;
   margin-right: 20px;
   -webkit-box-pack: center;
