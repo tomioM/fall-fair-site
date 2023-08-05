@@ -224,8 +224,8 @@ li {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  background-image: url('/public/612bf83d101af9225304c3bc_Mask-Group-1.svg'), -webkit-gradient(linear, left top, left bottom, from(rgba(126, 204, 91, 0.85)), to(rgba(126, 204, 91, 0.85))), url('/public/vegetables.jpeg');
-  background-image: url('/public/612bf83d101af9225304c3bc_Mask-Group-1.svg'), linear-gradient(180deg, rgba(126, 204, 91, 0.85), rgba(126, 204, 91, 0.85)), url('/public/vegetables.jpeg');
+  background-image: url('../images/612bf83d101af9225304c3bc_Mask-Group-1.svg'), -webkit-gradient(linear, left top, left bottom, from(rgba(126, 204, 91, 0.85)), to(rgba(126, 204, 91, 0.85))), url('../images/3940428034_51152a6f4e_b.jpeg');
+  background-image: url('../images/612bf83d101af9225304c3bc_Mask-Group-1.svg'), linear-gradient(180deg, rgba(126, 204, 91, 0.85), rgba(126, 204, 91, 0.85)), url('../images/3940428034_51152a6f4e_b.jpeg');
   background-position: 50% 100%, 0px 0px, 0px 0px;
   background-size: cover, auto, cover;
   background-repeat: no-repeat, repeat, repeat;
@@ -786,12 +786,13 @@ li {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Shrikhand, sans-serif;
-  color: #fffaf7;
+  color: #fe9148;
   font-size: 1.6em;
   text-decoration: none;
 }
 
 .logo-heading.detailed {
+  color: #fe9148;
   font-size: 2.3vw;
 }
 
@@ -921,7 +922,7 @@ li {
 }
 
 .row-header {
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 
 .row-header.orange {
@@ -1588,14 +1589,14 @@ li {
 .schedule-column-icon.stage {
   height: 85px;
   margin-top: -10px;
-  background-image: url('/public/2581641-200.png');
+  background-image: url('../images/2581641-200.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .schedule-column-icon.other {
-  background-image: url('/public/13644-200.png');
+  background-image: url('../images/13644-200.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1689,7 +1690,7 @@ li {
   height: 20px;
   margin-top: 10px;
   margin-right: 10px;
-  background-image: url('/public/info_cream_24dp.svg');
+  background-image: url('../images/info_cream_24dp.svg');
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -1742,8 +1743,8 @@ li {
   }
 
   .section.hero {
-    background-image: url('/public/612bf83d101af9225304c3bc_Mask-Group-1.svg'), -webkit-gradient(linear, left top, left bottom, from(rgba(126, 204, 91, 0.85)), to(rgba(126, 204, 91, 0.85))), url('/public/vegetables.jpeg');
-    background-image: url('/public/612bf83d101af9225304c3bc_Mask-Group-1.svg'), linear-gradient(180deg, rgba(126, 204, 91, 0.85), rgba(126, 204, 91, 0.85)), url('/public/vegetables.jpeg');
+    background-image: url('../images/612bf83d101af9225304c3bc_Mask-Group-1.svg'), -webkit-gradient(linear, left top, left bottom, from(rgba(126, 204, 91, 0.85)), to(rgba(126, 204, 91, 0.85))), url('../images/3940428034_51152a6f4e_b.jpeg');
+    background-image: url('../images/612bf83d101af9225304c3bc_Mask-Group-1.svg'), linear-gradient(180deg, rgba(126, 204, 91, 0.85), rgba(126, 204, 91, 0.85)), url('../images/3940428034_51152a6f4e_b.jpeg');
     background-position: 50% 100%, 0px 0px, 0px 0px;
     background-size: cover, auto, cover;
     background-repeat: no-repeat, repeat, repeat;
